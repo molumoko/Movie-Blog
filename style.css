@@ -1,3 +1,10 @@
+/*
+Theme Name: Original-Site
+Author: Miho Watanabe
+Description: 映画に関するブログ用テーマ
+Version: 1.0
+*/
+
 /*Base
   ========================================================================*/
 
@@ -92,7 +99,7 @@ nav ul li a:hover {
 
 #cover {
     height: 330px;
-    background-image: url("banner-1155437_1280.png");
+    background-image: url("images/banner-1155437_1280.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -237,11 +244,19 @@ article h3 {
 /*
   Blog
  */
+ 
+.blog-title-index {
+  margin-bottom: 0px;
+  margin-left: 5px;
+  font-size: 2em;
+  color: #333;
+}
 
 .blog-title-article {
   margin-bottom: 0px;
   margin-left: 5px;
 }
+
 
 .blog-wrap {
   border-top: 1px dotted #ccc;
@@ -253,6 +268,12 @@ article h3 {
   border-bottom: 1px dotted #ccc;
   color: #888;
   font-size: 13px;
+}
+
+.blog-thumbnail {
+  width:300px;
+  margin-bottom: 0px;
+  margin-left:5px;
 }
 
 .blog-body {
@@ -276,3 +297,43 @@ article h3 {
 .blog-footer {
   padding: 5px;
 }
+
+/*
+LOGIN
+*/
+#wpmem_reg .text {
+  display: inline-block;
+  width: 30%;
+  box-sizing: border-box;
+  padding: 15px;
+  font-weight: bold;
+  text-align: right; }
+#wpmem_reg .div_text {
+  display: inline-block;
+  width: 69%;
+  box-sizing: border-box;
+  padding: 15px; }
+  #wpmem_reg .div_text input {
+    border: 1px solid #eeeeee; }
+#wpmem_reg .button_div {
+  text-align: center; }
+  #wpmem_reg .button_div .buttons {
+    display: inline-block;
+    width: 200px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px; }
+    #wpmem_reg .button_div .buttons:nth-child(1) {
+      background-color: #eeeeee; }
+    #wpmem_reg .button_div .buttons:nth-child(2) {
+      background-color: #eec507; }
+    #wpmem_reg .button_div .buttons:hover {
+      opacity: 0.7; }
+#wpmem_reg .req {
+  color: red;
+  padding-left: 4px; }
+
+.wpmem_msg {
+  color: red;
+  font-weight: bold; }
